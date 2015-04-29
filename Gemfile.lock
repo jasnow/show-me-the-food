@@ -29,6 +29,8 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     builder (3.2.2)
+    childprocess (0.5.6)
+      ffi (~> 1.0, >= 1.0.11)
     coderay (1.1.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
@@ -45,9 +47,11 @@ GEM
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
+    ffi (1.9.8)
     geocoder (1.2.8)
     gmaps4rails (2.1.2)
     i18n (0.7.0)
+    iniparse (1.4.0)
     jbuilder (2.2.13)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -61,6 +65,9 @@ GEM
     mime-types (2.5)
     minitest (5.6.1)
     multi_json (1.11.0)
+    overcommit (0.24.0)
+      childprocess (~> 0.5.6)
+      iniparse (~> 1.4)
     pg (0.18.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -146,6 +153,7 @@ DEPENDENCIES
   gmaps4rails
   jbuilder
   jquery-rails
+  overcommit
   pg
   pry
   rails (= 4.1.10)
