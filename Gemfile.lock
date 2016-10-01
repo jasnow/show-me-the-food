@@ -121,7 +121,7 @@ GEM
     rake (11.3.0)
     rdoc (4.2.2)
       json (~> 1.4)
-    rspec-core (3.5.3)
+    rspec-core (3.5.4)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -196,4 +196,4 @@ DEPENDENCIES
   underscore-rails
 
 BUNDLED WITH
-   1.13.1
+   1.13.2
