@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.0.1'
 
 gem 'pg'
 gem 'sqlite3'
@@ -41,6 +41,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'pry', group: [:development, :test]
   gem 'factory_girl_rails'
+  gem 'rails-controller-testing'
 end
 
 gem 'geocoder'
