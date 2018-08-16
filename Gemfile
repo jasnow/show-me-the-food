@@ -42,6 +42,7 @@ group :development, :test do
   gem 'pry', group: [:development, :test]
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
+  gem 'rubocop-rspec'
 end
 
 gem 'geocoder'
