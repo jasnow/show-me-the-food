@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '6.0.0.beta1'
 
 gem 'pg'
-gem 'sqlite3'
+gem 'sqlite3', '1.3.13' # LOCKED DOWN
 # Use SCSS for stylesheets
 gem 'sass-rails'
 gem 'underscore-rails'
