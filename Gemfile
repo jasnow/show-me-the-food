@@ -5,7 +5,7 @@ gem 'rails', '6.0.0.rc1'
 gem 'pg'
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'underscore-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
