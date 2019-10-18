@@ -36,7 +36,7 @@ gem 'spring-commands-rspec', group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 group :development, :test do
-  gem 'rspec-rails', '4.0.0.beta2'
+  gem 'rspec-rails', '4.0.0.beta3'
   gem 'pry', group: [:development, :test]
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
