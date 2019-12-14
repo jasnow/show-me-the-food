@@ -5,7 +5,9 @@ gem 'rails', '6.0.2'
 gem 'pg'
 gem 'sqlite3'
 
-gem 'sass-rails'
+gem 'sassc-rails'
+gem 'ffi', '1.11.2' # 12/13/2019: LOCKED DOWN
+ 
 gem 'underscore-rails'
 
 gem 'uglifier'
