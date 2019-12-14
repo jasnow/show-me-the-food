@@ -171,6 +171,8 @@ GEM
     rubocop-rspec (1.37.0)
       rubocop (>= 0.68.1)
     ruby-progressbar (1.10.1)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.2.1)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -224,7 +226,7 @@ DEPENDENCIES
   rails-controller-testing
   rspec-rails (= 4.0.0.beta3)
   rubocop-rspec
-  sassc-rails
+  sass-rails
   sdoc
   spring
   spring-commands-rspec
