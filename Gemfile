@@ -6,7 +6,8 @@ gem 'pg'
 gem 'sqlite3'
 
 gem 'sassc-rails'
-gem 'ffi', '1.11.2' # 12/13/2019: LOCKED DOWN
+gem 'sassc', '2.1.0' # 12/15/2019: LOCKED DOWN
+#gem 'ffi', '1.11.2' # 12/13/2019: LOCKED DOWN
  
 gem 'underscore-rails'
 
