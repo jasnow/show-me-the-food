@@ -22,7 +22,7 @@ gem 'spring', group: :development
 gem 'spring-commands-rspec', group: :development
 
 group :development, :test do
-  gem 'rspec-rails', '4.0.0.beta4'
+  gem 'rspec-rails'
   gem 'pry', group: [:development, :test]
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
