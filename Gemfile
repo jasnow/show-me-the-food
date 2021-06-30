@@ -10,7 +10,7 @@ gem 'sassc', '2.1.0' # 12/15/2019: LOCKED DOWN
  
 gem 'underscore-rails'
 
-gem 'uglifier'
+gem 'terser'
 
 gem 'jquery-rails'
 

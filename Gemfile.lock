@@ -204,6 +204,8 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    terser (1.1.5)
+      execjs (>= 0.3.0, < 3)
     thor (1.1.0)
     tilt (2.0.10)
     turbolinks (5.2.1)
@@ -211,8 +213,6 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    uglifier (4.2.0)
-      execjs (>= 0.3.0, < 3)
     underscore-rails (1.8.3)
     unicode-display_width (2.0.0)
     websocket-driver (0.7.5)
@@ -241,8 +241,8 @@ DEPENDENCIES
   spring
   spring-commands-rspec
   sqlite3
+  terser
   turbolinks
-  uglifier
   underscore-rails
 
 BUNDLED WITH
