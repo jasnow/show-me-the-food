@@ -253,7 +253,6 @@ DEPENDENCIES
   geocoder
   gmaps4rails
   jquery-rails
-  net-smtp
   overcommit
   pry
   rails (= 7.0.1)

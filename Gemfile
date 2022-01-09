@@ -7,7 +7,6 @@ gem 'sqlite3'
 
 gem 'sassc-rails'
 gem 'sassc', '2.1.0' # 12/15/2019: LOCKED DOWN
-gem 'net-smtp' # Added for Ruby 3.1.
  
 gem 'underscore-rails'
 
