@@ -117,9 +117,9 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.4-x86_64-darwin)
+    nokogiri (1.13.5-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.4-x86_64-linux)
+    nokogiri (1.13.5-x86_64-linux)
       racc (~> 1.4)
     overcommit (0.59.1)
       childprocess (>= 0.6.3, < 5)
@@ -229,7 +229,7 @@ GEM
     sqlite3 (1.4.2)
     stringio (3.0.1)
     strscan (3.0.1)
-    terser (1.1.8)
+    terser (1.1.9)
       execjs (>= 0.3.0, < 3)
     thor (1.2.1)
     tilt (2.0.10)
