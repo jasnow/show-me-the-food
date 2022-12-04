@@ -227,7 +227,7 @@ GEM
     sqlite3 (1.5.4)
       mini_portile2 (~> 2.8.0)
     stringio (3.0.3)
-    terser (1.1.12)
+    terser (1.1.13)
       execjs (>= 0.3.0, < 3)
     thor (1.2.1)
     tilt (2.0.11)
