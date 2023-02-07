@@ -1,34 +1,38 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rails', '7.0.4.2'
+gem "rails", "7.0.4.2"
 
-#HID: gem 'pg' # HID on 10/3/2020
-gem 'sqlite3'
+# HID: gem 'pg' # HID on 10/3/2020
+gem "sqlite3"
 
-gem 'sassc-rails'
-gem 'sassc', '2.1.0' # 12/15/2019: LOCKED DOWN
- 
-gem 'underscore-rails'
+gem "sassc-rails"
+gem "sassc", "2.1.0" # 12/15/2019: LOCKED DOWN
 
-gem 'terser'
+gem "underscore-rails"
 
-gem 'jquery-rails'
+gem "terser"
 
-gem 'turbolinks'
+gem "jquery-rails"
 
-gem 'sdoc', group: :doc
+gem "turbolinks"
 
-gem 'spring', group: :development
-gem 'spring-commands-rspec', group: :development
+gem "sdoc", group: :doc
+
+gem "spring", group: :development
+gem "spring-commands-rspec", group: :development
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'pry', group: [:development, :test]
-  gem 'factory_bot_rails'
-  gem 'rails-controller-testing'
-  gem 'rubocop-rspec'
+  gem "rspec-rails"
+  gem "pry", group: [:development, :test]
+  gem "factory_bot_rails"
+  gem "rails-controller-testing"
+  gem "rubocop-rspec"
+
+  gem "standard"
+  gem "ruby_audit"
+  gem "spektr"
 end
 
-gem 'geocoder'
-gem 'gmaps4rails'
-gem 'overcommit'
+gem "geocoder"
+gem "gmaps4rails"
+gem "overcommit"
