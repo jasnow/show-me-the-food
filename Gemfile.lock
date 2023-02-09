@@ -180,7 +180,7 @@ GEM
     rake (13.0.6)
     rdoc (6.5.0)
       psych (>= 4.0.0)
-    regexp_parser (2.6.2)
+    regexp_parser (2.7.0)
     rexml (3.2.5)
     rspec-core (3.12.1)
       rspec-support (~> 3.12.0)
