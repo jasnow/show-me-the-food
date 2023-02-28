@@ -6,7 +6,6 @@ gem "rails", "7.0.4.2"
 gem "sqlite3"
 
 gem "sassc-rails"
-gem "sassc", "2.1.0" # 12/15/2019: LOCKED DOWN
 
 gem "underscore-rails"
 
@@ -17,6 +16,8 @@ gem "jquery-rails"
 gem "turbolinks"
 
 gem "sdoc", group: :doc
+
+gem "webrick"
 
 gem "spring", group: :development
 gem "spring-commands-rspec", group: :development
