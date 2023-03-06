@@ -24,11 +24,10 @@ gem "spring-commands-rspec", group: :development
 
 group :development, :test do
   gem "rspec-rails"
-  gem "pry", group: [:development, :test]
+  gem "pry"
   gem "factory_bot_rails"
   gem "rails-controller-testing"
   gem "rubocop-rspec"
-
   gem "standard"
   gem "ruby_audit"
   gem "spektr"
@@ -37,3 +36,5 @@ end
 gem "geocoder"
 gem "gmaps4rails"
 gem "overcommit"
+
+gem 'simplecov', require: false, group: :test

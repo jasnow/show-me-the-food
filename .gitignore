@@ -17,3 +17,4 @@
 /log/*.log
 /tmp
 node_modules/
+coverage
