@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 gem "rails", "7.1.0.beta1"
 
+gem 'observer'
+gem 'csv'
+
 # HID: gem 'pg' # HID on 10/3/2020
 gem "sqlite3"
 
