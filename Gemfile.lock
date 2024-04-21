@@ -131,9 +131,9 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.4)
-    method_source (1.0.0)
+    method_source (1.1.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.5)
+    mini_portile2 (2.8.6)
     minitest (5.22.3)
     mutex_m (0.2.0)
     net-imap (0.4.10)
@@ -224,7 +224,7 @@ GEM
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.0)
-    reline (0.5.1)
+    reline (0.5.2)
       io-console (~> 0.5)
     rexml (3.2.6)
     rspec-core (3.13.0)
@@ -405,7 +405,7 @@ DEPENDENCIES
   spektr
   spring
   spring-commands-rspec
-  sqlite3
+  sqlite3 (~> 1.4)
   standard
   terser
   turbolinks

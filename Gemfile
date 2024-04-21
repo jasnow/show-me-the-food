@@ -6,7 +6,7 @@ gem 'observer'
 gem 'csv'
 
 # HID: gem 'pg' # HID on 10/3/2020
-gem "sqlite3"
+gem "sqlite3", "~> 1.4"
 
 gem "sassc-rails"
 
