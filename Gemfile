@@ -4,7 +4,7 @@ gem "rails", "7.2.0.beta2"
 
 gem 'observer'
 gem 'csv'
-gem 'net-pop', github: 'ruby/net-pop'
+gem 'net-pop'
 
 # HID: gem 'pg' # HID on 10/3/2020
 gem "sqlite3", "~> 1.4"
