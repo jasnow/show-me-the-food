@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
-gem "rails", "7.2.1"
+gem "rails", "8.0.0.beta1"
 gem "ostruct" # Added 9/29/2024.
 
 gem 'observer'
 gem 'csv'
 
 # HID: gem 'pg' # HID on 10/3/2020
-gem "sqlite3", "~> 1.4"
+gem "sqlite3"
 
 gem "sassc-rails"
 
