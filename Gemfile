@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "rails", "7.2.1"
+gem "ostruct" # Added 9/29/2024.
 
 gem 'observer'
 gem 'csv'

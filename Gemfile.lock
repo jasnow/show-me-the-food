@@ -171,6 +171,7 @@ GEM
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     observer (0.1.2)
+    ostruct (0.6.0)
     overcommit (0.64.0)
       childprocess (>= 0.6.3, < 6)
       iniparse (~> 1.4)
@@ -401,6 +402,7 @@ DEPENDENCIES
   gmaps4rails
   jquery-rails
   observer
+  ostruct
   overcommit
   pry
   rails (= 7.2.1)
