@@ -121,7 +121,8 @@ GEM
       concurrent-ruby (~> 1.0)
     iniparse (1.5.0)
     io-console (0.8.0)
-    irb (1.14.3)
+    irb (1.15.1)
+      pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jquery-rails (4.6.0)
@@ -185,6 +186,9 @@ GEM
       racc
     pastel (0.8.0)
       tty-color (~> 0.5)
+    pp (0.6.2)
+      prettyprint
+    prettyprint (0.2.0)
     pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
