@@ -253,7 +253,7 @@ GEM
     reline (0.6.2)
       io-console (~> 0.5)
     rexml (3.4.4)
-    rspec-core (3.13.5)
+    rspec-core (3.13.6)
       rspec-support (~> 3.13.0)
     rspec-expectations (3.13.5)
       diff-lcs (>= 1.2.0, < 2.0)
@@ -305,7 +305,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    sdoc (2.6.4)
+    sdoc (2.6.5)
       rdoc (>= 5.0)
     securerandom (0.4.1)
     sexp_processor (4.17.4)
