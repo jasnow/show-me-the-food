@@ -33,7 +33,6 @@ group :development, :test do
   gem "rails-controller-testing"
   gem "rubocop-rspec"
   gem "standard"
-  gem "ruby_audit"
   gem "spektr"
 end
 
